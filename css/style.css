@@ -1,0 +1,122 @@
+@import url('https://fonts.cdnfonts.com/css/google-sans');
+:root {
+    --project-bg-color: #aaa;
+    --contact-bg-color: #1d3254;
+    --welcome-bg-color: #1d3254;
+    --project-image: url("img/bckgrd 01.png")
+
+  }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Product Sans', sans-serif;
+    color: #1d3254;
+    text-decoration: none;
+}
+
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+#welcome{
+    background-color: var(--welcome-bg-color);  /* #1d3254; */
+    padding-top: 150px;
+}
+#welcome h1{
+    color: #fff;
+}
+#welcome span{
+    color: #fd0;
+}
+#welcome h2{
+    color: #fff;
+}
+#welcome p{
+    color: #fff;
+}
+#welcome button{
+    padding: 15px;
+    width: 150px;
+    margin-top: 30px;
+    background-color: #fd0;
+    border: none;
+    border-radius: 0px;
+}
+#welcome img{
+    width: 50%;
+}
+#project{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: var(--project-bg-color);  /* #1d3254; */
+    background-image: var(--project-image);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#project h2{
+    text-align: center;
+    color: #1d3254;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#project h3{
+    color: #f00;
+}
+
+#project .card{
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#project .col-md-4 {
+    margin-bottom: 30px;
+}
+#project .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+#contact{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: var(--contact-bg-color);  /* #1d3254; */
+    text-align: center;
+}
+#contact h1{
+    color: orange;
+}
+#contact h4{
+    color: #fff;
+}
+#contact a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#imgbox
+{
+    vertical-align : middle;
+    position : absolute;
+    border: 1px solid #999;
+    background : #FFFFFF; 
+    /*filter: Alpha(Opacity=100);
+    height : 600px;
+    width : 400px;*/
+    visibility : hidden;
+    z-index : 50;
+    overflow : hidden;
+    text-align : center;
+}
